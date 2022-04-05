@@ -1,0 +1,35 @@
+{
+  "name": "peerspace",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "reset": "yarn install && cd ios && pod install && cd ..",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "components": "^0.1.0",
+    "react": "17.0.2",
+    "react-native": "0.68.0",
+    "react-query": "^3.34.19",
+    "styled-components": "^5.3.5",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/runtime": "^7.17.8",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.5.1",
+    "eslint": "^8.12.0",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.70.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
